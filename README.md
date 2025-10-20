@@ -1,2 +1,0 @@
-# debt-disobedience
-# enter
