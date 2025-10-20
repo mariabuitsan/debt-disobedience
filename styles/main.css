@@ -54,7 +54,7 @@ body {
     left: 5%;
     margin-right: 15%;
     margin-left: 5%;
-    margin-top: 6%;
+    margin-top: 10%;
     padding: 10px 10px;
     background-color: #B681EB;
     font-family: 'Lancelot', sans-serif;
@@ -144,8 +144,8 @@ p{
 #container{
     display: flex;
     flex-direction: column;
-    width: 1300px;
-    height: 650px;
+    width: 80em;
+    height: 100em;
     background: #DABBF9;
     padding: 2.5%;
     margin-left: 2%;
@@ -166,4 +166,26 @@ p{
     margin-left: 500px;
     margin-top: 5px;
     font-size: 75px;
+}
+.tags-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.panel{
+    font-family: 'Lancelot', sans-serif;
+    color: black;
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+    margin-left: 3%;
+    font-size: 1.5em;
+    transition: line-height 0.5s ease;
+}
+.buttons-2:hover{
+    box-shadow: 2px 2px 5px 5px rgb(205, 224, 144);
 }
