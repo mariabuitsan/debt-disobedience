@@ -41,4 +41,5 @@ export var imagesDebts = [
     'assets/img/wages-for-households.png', 
     'assets/img/closer-to-the-street.png',
     'assets/img/the-adventures-of-dorrit-little.png',
+    'assets/img/dancer-in-the-dark.gif'
 ]

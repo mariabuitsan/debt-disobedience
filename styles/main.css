@@ -101,6 +101,13 @@ h1{
     width: 247px;
     margin-left: 410px;
 }
+.h1-refuse{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
+    margin-left: 15%;
+}
 #individual{
     margin-left: 710px;
     margin-top: 550px;
