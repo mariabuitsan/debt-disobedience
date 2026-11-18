@@ -106,7 +106,8 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     width: 35%;
-    margin-left: 15%;
+    margin-left: 5%;
+    padding-bottom: 5%;
 }
 #individual{
     margin-left: 710px;
@@ -122,6 +123,14 @@ h2{
     word-wrap: break-word;
     width: 680px;
     margin-left: 2222px;
+}
+h3{
+    color: #9747FF;
+    font-family: 'VT323', monospace;;
+    font-size: 400%;
+    padding-left: 10%;
+    line-height: normal;
+    width: 100%;
 }
 #collective{
     margin-top: 1050px;
@@ -161,10 +170,20 @@ p{
 
 #explicacion{
     color: black;
-    width: 1000px;
-    height: 500px;
-    padding: 100px;
+    width: 80%;
+    height: 80%;
+    padding: 10%;
     margin-left: 5%;
+    font-size: 150%;
+    transition: line-height 0.5s ease;
+}
+#explicacion2{
+    color: black;
+    width: 1000px;
+    height: 100px;
+    padding: 50px;
+    margin-left: 5%;
+    margin-top: 10%;
     font-size: 30px;
     transition: line-height 0.5s ease;
 }
@@ -180,7 +199,7 @@ p{
     flex-wrap: wrap;
     padding: 5%;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 0%;
     justify-content: space-around;
 }
 .panel{
